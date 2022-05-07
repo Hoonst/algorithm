@@ -1,7 +1,7 @@
 N = int(input())
 
 a = [list(map(int, input().split())) for _ in range(N)]
-select = 
+select = []
 
 def dfs(idx, cnt):
     global ans
